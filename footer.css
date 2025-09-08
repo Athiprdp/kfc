@@ -1,0 +1,73 @@
+footer {
+  background-color: black;
+  color: white;
+  padding-left: 85px;
+  padding-right: 50px;
+  padding-top: 80px;
+
+}
+.left-section {
+  width:60px;
+}
+.left-section img {
+  width:100%;
+}
+.above-section {
+  display : flex;
+  justify-content: space-between;
+  line-height: 30px;
+  font-size: 15px;
+}
+.middle-section {
+  display: flex;
+  gap: 40px;
+}
+.middle-section a {
+  display: flex;
+}
+.find-kfc {
+  padding-top: 20px;
+}
+.find-kfc img {
+  width: 16px;
+  padding-right: 8px;
+}
+.right-section {
+  display: flex;
+  flex-direction: column;
+  width: 120px;
+  gap:20px;  
+}
+.right-section img{
+  width: 100%;
+}
+.copyright-section {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+.first-section {
+  flex: 1;
+}
+.copyright {
+  flex: 2;
+  justify-content: center;
+  text-align: center;
+}
+.social-media {
+  display: flex;
+  flex-direction: row;
+  gap:10px;
+  flex: 1;
+  justify-content: end;
+  align-items: center;
+  
+}
+.social-media img {
+
+  width: 30px;
+  height: 30px;
+  
+}

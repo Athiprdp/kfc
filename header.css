@@ -1,0 +1,94 @@
+header {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  
+}
+.set-location {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  border-bottom: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: lightgray;
+  background-color: white;
+}
+.set-location p {
+  padding-left: 10px;
+  padding-right: 20px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+.set-location button {
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  font-size: 12px;
+  border-radius: 18px;
+  border:none;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 35px;
+}
+.set-location img {
+  width: 13px;
+
+}
+.main-header {
+  
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  padding-left: 90px;
+  padding-right: 142px;
+  border-bottom: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: lightgray;
+  background-color: white;
+}
+.left-side {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-left: 10px;
+  align-items: center;
+}
+.left-side div {
+  font-size: large;
+  font-weight: 500;
+}
+.right-side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.account-icon {
+  width:18px;
+  margin-right: 10px;
+
+}
+.cart-icon {
+  background-color:;
+  width:48px;
+  margin-left: 10px;
+  
+  
+}
+.sign-in {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 35px ;
+  border-right: solid;
+  border-right-width: 1px;
+  border-right-color: black;
+  font-weight: 500;
+  font-size: large;
+
+}
